@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import pytest
 import time
 import math
-from base_page import BasePage
+from .base_page import BasePage
 
 class MainPage(BasePage):
     def go_to_login_page(self):
